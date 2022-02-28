@@ -5,7 +5,8 @@ fn main() {
     println!("The value of x is: {}", x);
     another_function(5);
     print_labeled_measurement(3, 'm');
-    print!("Expression test returns: {}", expression_test());
+    println!("Expression test returns: {}", expression_test());
+    let s = String::from("hello");
 }
 
 fn another_function(x: i32) {
